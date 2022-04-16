@@ -6,6 +6,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @ComponentScan("com.nhnacademy.exam")
-@EnableAspectJAutoProxy(proxyTargetClass = true)
+@EnableAspectJAutoProxy
 public class MainConfig {
 }

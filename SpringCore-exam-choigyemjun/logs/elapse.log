@@ -214,3 +214,609 @@ ns         %     Task name
 ---------------------------------------------
 025160400  100%  report
 
+22:30:02.164 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 24662400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+024662400  100%  load
+
+22:30:02.168 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1288500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001288500  100%  findWaterBills
+
+22:30:02.196 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 27650100 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+027650100  100%  report
+
+22:30:55.953 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 14248200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+014248200  100%  parse
+
+22:30:55.956 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 37529500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+037529500  100%  load
+
+22:30:55.965 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1629400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001629400  100%  findWaterBills
+
+22:30:55.965 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 8526300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+008526300  100%  calculate
+
+22:30:55.966 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 78400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000078400  100%  getLowWaterBills
+
+22:30:55.996 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 29566300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+029566300  100%  report
+
+22:34:56.251 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 13420600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+013420600  100%  parse
+
+22:34:56.253 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 34601100 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+034601100  100%  load
+
+22:34:56.262 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1926200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001926200  100%  findWaterBills
+
+22:34:56.263 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 9084200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+009084200  100%  calculate
+
+22:34:56.263 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 56900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000056900  100%  getLowWaterBills
+
+22:34:56.288 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 24696200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+024696200  100%  report
+
+22:35:39.494 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 15165700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+015165700  100%  parse
+
+22:35:39.498 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 41699600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+041699600  100%  load
+
+22:35:39.510 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1658400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001658400  100%  findWaterBills
+
+22:35:39.511 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 12229300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+012229300  100%  calculate
+
+22:35:39.511 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 142300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000142300  100%  getLowWaterBills
+
+22:35:39.544 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 31716400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+031716400  100%  report
+
+22:35:39.544 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getWaterBills': running time = 86900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000086900  100%  getWaterBills
+
+22:37:18.054 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 9727800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+009727800  100%  parse
+
+22:37:18.058 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 19285600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+019285600  100%  load
+
+22:37:18.060 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1275900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001275900  100%  findWaterBills
+
+22:37:18.060 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 2156900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002156900  100%  calculate
+
+22:37:18.061 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 19700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000019700  100%  getLowWaterBills
+
+22:37:18.083 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 22107900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+022107900  100%  report
+
+22:37:44.198 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 5668300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+005668300  100%  parse
+
+22:37:44.201 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 11881000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+011881000  100%  load
+
+22:37:44.202 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 807800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000807800  100%  findWaterBills
+
+22:37:44.202 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 1429500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001429500  100%  calculate
+
+22:37:44.203 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 13300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000013300  100%  getLowWaterBills
+
+22:37:44.220 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 16628400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+016628400  100%  report
+
+22:38:06.794 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 14116700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+014116700  100%  parse
+
+22:38:06.799 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 39891000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+039891000  100%  load
+
+22:38:06.808 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1334900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001334900  100%  findWaterBills
+
+22:38:06.808 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 8776800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+008776800  100%  calculate
+
+22:38:06.809 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 70400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000070400  100%  getLowWaterBills
+
+22:38:06.844 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 34381500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+034381500  100%  report
+
+22:38:57.815 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 27088700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+027088700  100%  parse
+
+22:38:57.820 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 71999300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+071999300  100%  load
+
+22:38:57.833 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1744800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001744800  100%  findWaterBills
+
+22:38:57.834 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 13466400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+013466400  100%  calculate
+
+22:38:57.834 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 89100 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000089100  100%  getLowWaterBills
+
+22:38:57.874 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 38542600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+038542600  100%  report
+
+22:41:13.064 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 20130500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+020130500  100%  parse
+
+22:41:13.068 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 49575000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+049575000  100%  load
+
+22:41:13.079 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1640600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001640600  100%  findWaterBills
+
+22:41:13.080 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 11159900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+011159900  100%  calculate
+
+22:41:13.080 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 88800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000088800  100%  getLowWaterBills
+
+22:41:13.111 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 29659300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+029659300  100%  report
+
+22:41:50.164 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 15579900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+015579900  100%  parse
+
+22:41:50.169 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 41953900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+041953900  100%  load
+
+22:41:50.178 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills2': running time = 1309800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001309800  100%  findWaterBills2
+
+22:41:50.179 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 9521900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+009521900  100%  calculate
+
+22:41:50.179 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 67500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000067500  100%  getLowWaterBills
+
+22:41:50.207 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 27036800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+027036800  100%  report
+
+22:42:28.473 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 19087000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+019087000  100%  parse
+
+22:42:28.477 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 45077300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+045077300  100%  load
+
+22:42:28.484 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1214400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001214400  100%  findWaterBills
+
+22:42:28.485 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 7639200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+007639200  100%  calculate
+
+22:42:28.485 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 61700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000061700  100%  getLowWaterBills
+
+22:42:28.522 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 37039700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+037039700  100%  report
+
+22:44:17.608 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 9215200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+009215200  100%  parse
+
+22:44:17.611 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 17811700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+017811700  100%  load
+
+22:44:17.613 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1067500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001067500  100%  findWaterBills
+
+22:44:17.613 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 1849000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001849000  100%  calculate
+
+22:44:17.614 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 17400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000017400  100%  getLowWaterBills
+
+22:44:17.631 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 17072000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+017072000  100%  report
+
+22:46:18.960 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 9837000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+009837000  100%  parse
+
+22:46:18.965 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 22667800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+022667800  100%  load
+
+22:46:18.968 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1573800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001573800  100%  findWaterBills
+
+22:46:18.968 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 2573600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002573600  100%  calculate
+
+22:46:18.969 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 25900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000025900  100%  getLowWaterBills
+
+22:46:18.994 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 24143600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+024143600  100%  report
+
+07:28:27.214 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 10049600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+010049600  100%  parse
+
+07:28:27.218 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 21115900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+021115900  100%  load
+
+07:28:27.220 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 1092700 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001092700  100%  findWaterBills
+
+07:28:27.220 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 1772900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001772900  100%  calculate
+
+07:28:27.221 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 15900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000015900  100%  getLowWaterBills
+
+07:28:27.244 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 22764400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+022764400  100%  report
+
+07:32:18.061 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 18056800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+018056800  100%  parse
+
+07:32:18.069 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 48504800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+048504800  100%  load
+
+07:32:18.072 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 2308900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002308900  100%  findWaterBills
+
+07:32:18.073 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 3579200 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+003579200  100%  calculate
+
+07:32:18.074 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 144500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000144500  100%  findWaterBills
+
+07:32:18.074 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 782300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000782300  100%  calculate
+
+07:32:18.075 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 30400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000030400  100%  getLowWaterBills
+
+07:32:18.104 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 28233400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+028233400  100%  report
+
+07:32:18.338 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 12100 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000012100  100%  getLowWaterBills
+
+07:32:18.348 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 13400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000013400  100%  getLowWaterBills
+
+07:32:18.348 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 12300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000012300  100%  getLowWaterBills
+
+07:32:18.349 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 11900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000011900  100%  getLowWaterBills
+
+07:32:18.350 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 14500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000014500  100%  getLowWaterBills
+
+07:48:48.836 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'parse': running time = 9365100 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+009365100  100%  parse
+
+07:48:48.839 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'load': running time = 18055900 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+018055900  100%  load
+
+07:48:48.840 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'findWaterBills': running time = 992600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000992600  100%  findWaterBills
+
+07:48:48.841 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'calculate': running time = 1645000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001645000  100%  calculate
+
+07:48:48.841 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'getLowWaterBills': running time = 14800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000014800  100%  getLowWaterBills
+
+07:48:48.861 [main] INFO  c.n.exam.main.aspect.ElapseAspect - StopWatch 'report': running time = 19534500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+019534500  100%  report
+

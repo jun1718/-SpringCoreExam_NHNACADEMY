@@ -1,12 +1,20 @@
 package com.nhnacademy.exam.main.info;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.Objects;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class WaterBill implements Comparable<WaterBill>{
+    @JsonAlias({"지자체명"})
     private final String city;
+    @JsonAlias({"업종"})
     private final String sector;
+    @JsonAlias({"구간시작(세제곱미터)"})
     private final long sectionStart;
+    @JsonAlias({"구간끝(세제곱미터)"})
     private final long sectionEnd;
+    @JsonAlias({"구간금액(원)"})
     private final long unitPrice;
     private long billTotal = 0L;
 

@@ -13,7 +13,8 @@ import org.springframework.util.StopWatch;
 public class ElapseAspect {
     private Log log = LogFactory.getLog(ElapseAspect.class);
 
-    @Around("execution(public * com.nhnacademy.exam.main.*.*..*(..))")
+//    @Around("execution(public * com.nhnacademy.exam.main.*.*..*(..))")
+    @Around("execution(public * *(..))")
     public Object logging(ProceedingJoinPoint pjp) throws Throwable {
         StopWatch stopWatch = new StopWatch(pjp.getSignature().getName());
         try {

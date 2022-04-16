@@ -17,6 +17,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,7 @@ public class DefaultResultReportTest {
         this.resultReport = resultReport;
     }
 
+    @DisplayName("통합적으로 정상적인 상황에서 리포트함수를 실행하면 1000물량에 맞는 5개의 싼가격 요금이 로그에 저장된다.")
     @Test
     void reportTest() {
         waterBillRepository.load("data/Tariff_20220331.csv");

@@ -31,10 +31,8 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
 
     @Override
     public List<WaterBill> findWaterBills(long amount) {
-
         WaterBillFinderAboutSection finder = new WaterBillFinderAboutSection(this.waterBills);
         finder.findWaterBills(amount);
-
         return finder.getResultWaterBills();
     }
 

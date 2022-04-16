@@ -28,6 +28,7 @@ public class BootStrap {
             waterBillRepository.load("data/Tariff_20220331.csv");
             paymentCalculationService.calculate(1000);
             resultReport.report(paymentCalculationService.getLowWaterBills());
+
         }
     }
 }
