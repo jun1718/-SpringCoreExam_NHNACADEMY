@@ -18,13 +18,13 @@ public class BootStrap {
         try (AnnotationConfigApplicationContext context =
             new AnnotationConfigApplicationContext(MainConfig.class)) {
             DataParser dataParser =
-                context.getBean("dataParser", DataParser.class);
+                context.getBean("csvDataParser", DataParser.class);
             WaterBillRepository waterBillRepository =
-                context.getBean("waterBillRepository", WaterBillRepository.class);
+                context.getBean("defaultWaterBillRepository", WaterBillRepository.class);
             PaymentCalculationService paymentCalculationService =
-                context.getBean("paymentCalculationService", PaymentCalculationService.class);
+                context.getBean("defaultPaymentCalculationService", PaymentCalculationService.class);
             ResultReport resultReport =
-                context.getBean("resultReport", ResultReport.class);
+                context.getBean("defaultResultReport", ResultReport.class);
 
             waterBillRepository.load("data/Tariff_20220331.csv");
             paymentCalculationService.calculate(1000);

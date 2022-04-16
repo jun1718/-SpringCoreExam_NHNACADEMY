@@ -46,27 +46,14 @@ public class WaterBill implements Comparable<WaterBill>{
         return sectionEnd;
     }
 
-//    @Override
-//    public String toString() {
-//        return "WaterBill{" +
-//            "city='" + city + '\'' +
-//            ", sector='" + sector + '\'' +
-//            ", unitPrice=" + unitPrice +
-//            ", billTotal=" + billTotal +
-//            '}';
-//    }
-
-
     @Override
     public String toString() {
         return "WaterBill{" +
             "city='" + city + '\'' +
             ", sector='" + sector + '\'' +
-            ", sectionStart=" + sectionStart +
-            ", sectionEnd=" + sectionEnd +
             ", unitPrice=" + unitPrice +
             ", billTotal=" + billTotal +
-            "}\n";
+            '}';
     }
 
     @Override

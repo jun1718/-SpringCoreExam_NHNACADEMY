@@ -19,9 +19,9 @@ public class CsvDataParser implements DataParser {
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(location);
              InputStreamReader reader = new InputStreamReader(inputStream);
              BufferedReader br = new BufferedReader(reader)) {
-
             String line = null;
             int i = 0;
+
             while ((line = br.readLine()) != null) {
                 if (i == 0) {
                     i++;

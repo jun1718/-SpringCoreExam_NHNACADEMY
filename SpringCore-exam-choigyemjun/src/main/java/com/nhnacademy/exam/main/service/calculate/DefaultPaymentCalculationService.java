@@ -36,6 +36,7 @@ public class DefaultPaymentCalculationService
         int i = 0;
         for (WaterBill waterBill : this.lowWaterBillRepository) {
             if (i == 5) {
+
                 break;
             }
 

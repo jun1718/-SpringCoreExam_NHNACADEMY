@@ -4,11 +4,11 @@ com\nhnacademy\exam\main\service\query\DefaultWaterBillQueryService.class
 com\nhnacademy\exam\main\report\ResultReport.class
 com\nhnacademy\exam\main\service\parser\CsvDataParser.class
 com\nhnacademy\exam\main\info\WaterBill.class
+com\nhnacademy\exam\main\service\material\WaterBillFinderAboutSection.class
 com\nhnacademy\exam\main\service\parser\JsonDataParser.class
 com\nhnacademy\exam\main\service\calculate\PaymentCalculationService.class
-com\nhnacademy\exam\config\MainConfig.class
+com\nhnacademy\exam\main\config\MainConfig.class
 com\nhnacademy\exam\main\service\parser\DataParser.class
-com\nhnacademy\exam\main\service\material\Find.class
 com\nhnacademy\exam\main\repository\DefaultWaterBillRepository.class
 com\nhnacademy\exam\main\repository\WaterBillRepository.class
 com\nhnacademy\exam\main\service\query\WaterBillQueryService.class

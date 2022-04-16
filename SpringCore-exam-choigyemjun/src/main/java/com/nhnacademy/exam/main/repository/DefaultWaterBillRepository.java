@@ -25,14 +25,16 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
             this.successLoad = false;
             return;
         }
-
+        
         this.successLoad = true;
     }
 
     @Override
     public List<WaterBill> findWaterBills(long amount) {
+
         WaterBillFinderAboutSection finder = new WaterBillFinderAboutSection(this.waterBills);
         finder.findWaterBills(amount);
+
         return finder.getResultWaterBills();
     }
 
