@@ -1,11 +1,11 @@
 package com.nhnacademy.exam.main.service.parser;
 
-import com.nhnacademy.exam.main.service.parser.DataParser;
-import java.net.URL;
+import com.nhnacademy.exam.main.info.WaterBill;
+import java.util.List;
 
 public class JsonDataParser implements DataParser {
     @Override
-    public void parse(URL location) {
-
+    public List<WaterBill> parse(String location) {
+        return null;
     }
 }

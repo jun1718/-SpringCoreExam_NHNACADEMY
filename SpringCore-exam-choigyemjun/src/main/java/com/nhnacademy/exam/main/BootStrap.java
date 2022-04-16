@@ -1,9 +1,11 @@
 package com.nhnacademy.exam.main;
 
-import com.nhnacademy.exam.config.MainConfig;
+import com.nhnacademy.exam.main.config.MainConfig;
 import com.nhnacademy.exam.main.report.ResultReport;
 import com.nhnacademy.exam.main.repository.WaterBillRepository;
 import com.nhnacademy.exam.main.service.calculate.PaymentCalculationService;
+import com.nhnacademy.exam.main.service.parser.CsvDataParser;
+import com.nhnacademy.exam.main.service.parser.DataParser;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class BootStrap {
@@ -12,19 +14,21 @@ public class BootStrap {
         bootStrap.start();
     }
 
-    private void start() {
+    public void start() {
         try (AnnotationConfigApplicationContext context =
             new AnnotationConfigApplicationContext(MainConfig.class)) {
-            WaterBillRepository defaultWaterBillRepository =
-                context.getBean("defaultWaterBillRepository", WaterBillRepository.class);
-            PaymentCalculationService defaultPaymentCalculationService =
-                context.getBean("defaultPaymentCalculationService", PaymentCalculationService.class);
-            ResultReport defaultResultReport =
-                context.getBean("defaultResultReport", ResultReport.class);
+            DataParser dataParser =
+                context.getBean("dataParser", DataParser.class);
+            WaterBillRepository waterBillRepository =
+                context.getBean("waterBillRepository", WaterBillRepository.class);
+            PaymentCalculationService paymentCalculationService =
+                context.getBean("paymentCalculationService", PaymentCalculationService.class);
+            ResultReport resultReport =
+                context.getBean("resultReport", ResultReport.class);
 
-            defaultWaterBillRepository.load("Tariff_20220331.csv");
-            defaultResultReport.report(defaultPaymentCalculationService.findWaterBills(1000L));
+            waterBillRepository.load("data/Tariff_20220331.csv");
+            paymentCalculationService.calculate(1000);
+            resultReport.report(paymentCalculationService.getLowWaterBills());
         }
-
     }
 }

@@ -1,7 +1,8 @@
 package com.nhnacademy.exam.main.service.parser;
 
-import java.net.URL;
+import com.nhnacademy.exam.main.info.WaterBill;
+import java.util.List;
 
 public interface DataParser {
-    void parse(URL location);
+    List<WaterBill> parse(String location);
 }

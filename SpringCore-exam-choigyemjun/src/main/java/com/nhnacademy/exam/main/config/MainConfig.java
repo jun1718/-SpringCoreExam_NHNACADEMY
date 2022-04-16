@@ -1,4 +1,4 @@
-package com.nhnacademy.exam.config;
+package com.nhnacademy.exam.main.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

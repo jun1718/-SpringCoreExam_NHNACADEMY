@@ -5,6 +5,5 @@ import java.util.List;
 
 public interface PaymentCalculationService {
     void calculate(long amount);
-
-    List<WaterBill> findWaterBills(long l);
+    List<WaterBill> getLowWaterBills();
 }
