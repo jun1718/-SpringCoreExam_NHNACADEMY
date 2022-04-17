@@ -6,6 +6,7 @@ import com.nhnacademy.exam.main.repository.DefaultWaterBillRepository;
 import com.nhnacademy.exam.main.repository.WaterBillRepository;
 import com.nhnacademy.exam.main.service.parser.CsvDataParser;
 import com.nhnacademy.exam.main.service.parser.DataParser;
+import com.nhnacademy.exam.main.service.parser.JsonDataParser;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,7 +16,7 @@ public class DefaultWaterBillRepositoryTest {
 
     @BeforeEach
     void setUp() {
-        this.defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser());
+        this.defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser(), new JsonDataParser());
     }
 
     @DisplayName("csv파일을 업로드 한다.")
@@ -32,7 +33,7 @@ public class DefaultWaterBillRepositoryTest {
     @DisplayName("csv파일경로를 이상하게 준 경우 successLoad는 false가 나와야한다.")
     @Test
     void loadTest_nonFile() {
-        this.defaultWaterBillRepository.load("이것은 존재하지 않는 파일이다.");
+        this.defaultWaterBillRepository.load("이것은 존재하지 않는 파일이다");
         assertThat(this.defaultWaterBillRepository.isSuccessLoad())
             .isFalse();
     }

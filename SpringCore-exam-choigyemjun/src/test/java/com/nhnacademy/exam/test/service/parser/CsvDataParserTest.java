@@ -23,7 +23,7 @@ class CsvDataParserTest {
     @DisplayName("파일경로가 존재하지 않을시 비어있는 값을 반환한다.")
     @Test
     void parseTest_Exception() {
-        assertThat(csvDataParser.parse("이런 파일은 없단다."))
+        assertThat(csvDataParser.parse("이런 파일은 없단다"))
             .isEqualTo(Collections.emptyList());
     }
 

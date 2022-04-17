@@ -8,6 +8,7 @@ import com.nhnacademy.exam.main.repository.WaterBillRepository;
 import com.nhnacademy.exam.main.service.calculate.DefaultPaymentCalculationService;
 import com.nhnacademy.exam.main.service.calculate.PaymentCalculationService;
 import com.nhnacademy.exam.main.service.parser.CsvDataParser;
+import com.nhnacademy.exam.main.service.parser.JsonDataParser;
 import java.util.List;
 import net.bytebuddy.pool.TypePool;
 import org.junit.jupiter.api.BeforeEach;
@@ -20,7 +21,7 @@ public class DefaultPaymentCalculationServiceTest {
 
     @BeforeEach
     void setUp() {
-        defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser());
+        defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser(), new JsonDataParser());
         defaultWaterBillRepository.load("data/Tariff_20220331.csv");
         defaultPaymentCalculationService= new DefaultPaymentCalculationService(defaultWaterBillRepository);
     }

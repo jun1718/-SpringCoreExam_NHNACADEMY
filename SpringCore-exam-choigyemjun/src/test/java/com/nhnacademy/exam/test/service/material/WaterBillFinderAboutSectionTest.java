@@ -7,6 +7,7 @@ import com.nhnacademy.exam.main.repository.DefaultWaterBillRepository;
 import com.nhnacademy.exam.main.repository.WaterBillRepository;
 import com.nhnacademy.exam.main.service.material.WaterBillFinderAboutSection;
 import com.nhnacademy.exam.main.service.parser.CsvDataParser;
+import com.nhnacademy.exam.main.service.parser.JsonDataParser;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,7 +18,7 @@ public class WaterBillFinderAboutSectionTest {
 
     @BeforeEach
     void setUp() {
-        defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser());
+        defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser(), new JsonDataParser());
         defaultWaterBillRepository.load("data/Tariff_20220331.csv");
         waterBillFinder = new WaterBillFinderAboutSection(defaultWaterBillRepository.getWaterBills());
     }
