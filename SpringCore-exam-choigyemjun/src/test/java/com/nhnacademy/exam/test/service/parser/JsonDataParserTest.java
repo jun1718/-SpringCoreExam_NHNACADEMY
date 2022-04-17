@@ -6,13 +6,12 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import com.nhnacademy.exam.main.info.WaterBill;
 import com.nhnacademy.exam.main.service.parser.DataParser;
 import com.nhnacademy.exam.main.service.parser.JsonDataParser;
-import java.util.Collections;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class JsonDataParserTest {
+class JsonDataParserTest {
     DataParser jsonDataParser;
 
     @BeforeEach

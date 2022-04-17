@@ -3,12 +3,8 @@ package com.nhnacademy.exam.main.repository;
 import com.nhnacademy.exam.main.info.WaterBill;
 import com.nhnacademy.exam.main.service.material.WaterBillFinderAboutSection;
 import com.nhnacademy.exam.main.service.parser.DataParser;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
@@ -18,7 +14,6 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
     private List<WaterBill> waterBills = new ArrayList<>();
     private final DataParser csvParser;
     private final DataParser jsonParser;
-    private Log log = LogFactory.getLog(DefaultWaterBillRepository.class);
 
     public DefaultWaterBillRepository(@Qualifier("csvDataParser") DataParser csvParser,
                                       @Qualifier("jsonDataParser") DataParser jsonParser) {
@@ -33,18 +28,12 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
             throw new IllegalStateException("파일 형식이 없습니다.");
         }
 
-        try {
-            parserSelector(location);
-        } catch (IOException e) {
-            e.printStackTrace();
-            this.successLoad = false;
-            return;
-        }
-        
+        parserSelector(location);
+
         this.successLoad = true;
     }
 
-    private void parserSelector(String location) throws IOException {
+    private void parserSelector(String location) {
         String[] str = location.split("[.]", -1);
 
         if (str[1].equals("csv")) {

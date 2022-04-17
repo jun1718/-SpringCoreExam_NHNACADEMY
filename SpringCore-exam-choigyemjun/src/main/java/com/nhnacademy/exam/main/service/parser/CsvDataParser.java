@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +18,7 @@ public class CsvDataParser implements DataParser {
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(location);
              InputStreamReader reader = new InputStreamReader(inputStream);
              BufferedReader br = new BufferedReader(reader)) {
-            String line = null;
+            String line;
             int i = 0;
 
             while ((line = br.readLine()) != null) {
@@ -43,7 +42,6 @@ public class CsvDataParser implements DataParser {
         } catch (NullPointerException e) {
             throw new NullPointerException("존재하지 않는 파일경로 : " + location);
         }
-
         return waterBills;
     }
 }

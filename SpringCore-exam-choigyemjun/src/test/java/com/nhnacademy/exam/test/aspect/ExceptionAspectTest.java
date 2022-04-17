@@ -19,7 +19,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = {MainConfig.class})
-public class ExceptionAspectTest {
+class ExceptionAspectTest {
     @Autowired
     WaterBillRepository defaultWaterBillRepository;
 
