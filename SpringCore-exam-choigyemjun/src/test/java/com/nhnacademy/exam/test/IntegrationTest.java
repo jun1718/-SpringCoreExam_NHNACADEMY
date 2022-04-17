@@ -23,7 +23,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = {MainConfig.class})
-public class IntegrationTest {
+class IntegrationTest {
     final WaterBillRepository waterBillRepository;
     final PaymentCalculationService paymentCalculationService;
     final ResultReport resultReport;

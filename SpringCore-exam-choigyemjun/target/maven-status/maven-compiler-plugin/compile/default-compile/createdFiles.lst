@@ -4,7 +4,6 @@ com\nhnacademy\exam\main\aspect\ExceptionAspect.class
 com\nhnacademy\exam\main\report\ResultReport.class
 com\nhnacademy\exam\main\service\parser\CsvDataParser.class
 com\nhnacademy\exam\main\info\WaterBill.class
-com\nhnacademy\exam\main\repository\Select.class
 com\nhnacademy\exam\main\service\material\WaterBillFinderAboutSection.class
 com\nhnacademy\exam\main\aspect\ElapseAspect.class
 com\nhnacademy\exam\main\service\parser\JsonDataParser.class

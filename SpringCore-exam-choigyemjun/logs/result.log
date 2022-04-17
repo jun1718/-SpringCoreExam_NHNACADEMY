@@ -613,3 +613,373 @@ WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTota
 WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
 WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
 WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=370000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=413000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=433000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=740000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=826000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=866000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=1110000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=1239000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=1299000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ?', sector='ê³µì—…?š©', unitPrice=370, billTotal=370000}
+WaterBill{city='?†µ?˜?‹œ', sector='?›? •?ˆ˜?Œë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ?', sector='? •?ˆ˜?š©', unitPrice=433, billTotal=433000}
+WaterBill{city='?‚˜ì£¼ì‹œ', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='?¥?¥êµ?', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=370000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=413000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=433000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=740000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=826000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=866000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=1110000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=1239000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=1299000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ?', sector='ê³µì—…?š©', unitPrice=370, billTotal=370000}
+WaterBill{city='?†µ?˜?‹œ', sector='?›? •?ˆ˜?Œë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ?', sector='? •?ˆ˜?š©', unitPrice=433, billTotal=433000}
+WaterBill{city='?‚˜ì£¼ì‹œ', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='?¥?¥êµ?', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=370000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=413000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=433000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=740000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=826000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=866000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=1110000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=1239000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=1299000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ?', sector='ê³µì—…?š©', unitPrice=370, billTotal=370000}
+WaterBill{city='?†µ?˜?‹œ', sector='?›? •?ˆ˜?Œë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ?', sector='? •?ˆ˜?š©', unitPrice=433, billTotal=433000}
+WaterBill{city='?‚˜ì£¼ì‹œ', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='?¥?¥êµ?', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=370000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=413000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=433000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=740000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=826000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=866000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=1110000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=1239000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=1299000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ?', sector='ê³µì—…?š©', unitPrice=370, billTotal=370000}
+WaterBill{city='?†µ?˜?‹œ', sector='?›? •?ˆ˜?Œë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ?', sector='? •?ˆ˜?š©', unitPrice=433, billTotal=433000}
+WaterBill{city='?‚˜ì£¼ì‹œ', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='?¥?¥êµ?', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=370000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=413000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=433000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=740000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=826000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=866000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=1110000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=1239000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=1299000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ?', sector='ê³µì—…?š©', unitPrice=370, billTotal=370000}
+WaterBill{city='?†µ?˜?‹œ', sector='?›? •?ˆ˜?Œë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ?', sector='? •?ˆ˜?š©', unitPrice=433, billTotal=433000}
+WaterBill{city='?‚˜ì£¼ì‹œ', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='?¥?¥êµ?', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=370000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=413000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=433000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=433000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=740000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=826000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=866000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=866000}
+WaterBill{city='°í·É±º', sector='°ø¾÷¿ë', unitPrice=370, billTotal=1110000}
+WaterBill{city='Åë¿µ½Ã', sector='¿øÁ¤¼öÆÇ¸Å¿ë', unitPrice=413, billTotal=1239000}
+WaterBill{city='±İ»ê±º', sector='Á¤¼ö¿ë', unitPrice=433, billTotal=1299000}
+WaterBill{city='³ªÁÖ½Ã', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ÀåÈï±º', sector='ÀÓ½Ã¿ë(»ó)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ?', sector='ê³µì—…?š©', unitPrice=370, billTotal=370000}
+WaterBill{city='?†µ?˜?‹œ', sector='?›? •?ˆ˜?Œë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ?', sector='? •?ˆ˜?š©', unitPrice=433, billTotal=433000}
+WaterBill{city='?‚˜ì£¼ì‹œ', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='?¥?¥êµ?', sector='?„?‹œ?š©(?ƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=740000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=826000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=866000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=866000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=1110000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=1239000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=1299000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=1299000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ê³ ë ¹êµ°', sector='ê³µì—…ìš©', unitPrice=370, billTotal=370000}
+WaterBill{city='í†µì˜ì‹œ', sector='ì›ì •ìˆ˜íŒë§¤ìš©', unitPrice=413, billTotal=413000}
+WaterBill{city='ê¸ˆì‚°êµ°', sector='ì •ìˆ˜ìš©', unitPrice=433, billTotal=433000}
+WaterBill{city='ë‚˜ì£¼ì‹œ', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}
+WaterBill{city='ì¥í¥êµ°', sector='ì„ì‹œìš©(ìƒ)', unitPrice=433, billTotal=433000}

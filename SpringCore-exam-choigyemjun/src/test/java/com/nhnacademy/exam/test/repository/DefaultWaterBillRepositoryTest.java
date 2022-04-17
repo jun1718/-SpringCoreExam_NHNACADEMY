@@ -33,7 +33,10 @@ class DefaultWaterBillRepositoryTest {
     @DisplayName("csv파일경로를 이상하게 준 경우 successLoad는 false가 나와야한다.")
     @Test
     void loadTest_nonFile() {
-        this.defaultWaterBillRepository.load("이것은 존재하지 않는 파일이다");
+        try{
+            this.defaultWaterBillRepository.load("이것은 존재하지 않는 파일이다");
+        } catch (Exception e) {};
+
         assertThat(this.defaultWaterBillRepository.isSuccessLoad())
             .isFalse();
     }

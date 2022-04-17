@@ -1,0 +1,8 @@
+com\nhnacademy\exam\test\IntegrationTest.class
+com\nhnacademy\exam\test\report\DefaultResultReportTest.class
+com\nhnacademy\exam\test\repository\DefaultWaterBillRepositoryTest.class
+com\nhnacademy\exam\test\service\parser\JsonDataParserTest.class
+com\nhnacademy\exam\test\aspect\ExceptionAspectTest.class
+com\nhnacademy\exam\test\service\parser\CsvDataParserTest.class
+com\nhnacademy\exam\test\service\material\WaterBillFinderAboutSectionTest.class
+com\nhnacademy\exam\test\service\calculate\DefaultPaymentCalculationServiceTest.class
