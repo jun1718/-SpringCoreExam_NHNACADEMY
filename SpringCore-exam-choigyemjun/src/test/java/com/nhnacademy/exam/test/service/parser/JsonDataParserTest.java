@@ -1,6 +1,7 @@
 package com.nhnacademy.exam.test.service.parser;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import com.nhnacademy.exam.main.info.WaterBill;
 import com.nhnacademy.exam.main.service.parser.DataParser;
@@ -19,11 +20,12 @@ public class JsonDataParserTest {
         jsonDataParser = new JsonDataParser();
     }
 
-    @DisplayName("파일경로가 존재하지 않을시 비어있는 값을 반환한다.")
+    @DisplayName("파일경로가 존재하지 않을시 예외를 발생시킨다.")
     @Test
     void parseTest_Exception() {
-        assertThat(jsonDataParser.parse("이런 파일은 없단다"))
-            .isEqualTo(Collections.emptyList());
+        assertThatThrownBy(() -> jsonDataParser.parse("이런 파일은 없단다"))
+            .isInstanceOf(IllegalArgumentException.class)
+            .hasMessageContaining("존재하지 않는 파일경로");
     }
 
     @DisplayName("파일위치를 classLoader로 잘 잡아서 역직렬화를 성공적으로 했는지  테스트한다. 갯수 303, 첫번재 및 마지막 객체로 비교")

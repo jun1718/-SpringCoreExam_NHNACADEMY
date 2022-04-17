@@ -38,13 +38,10 @@ public class CsvDataParser implements DataParser {
                 WaterBill waterBill = new WaterBill(city, sector, sectionStart, sectionEnd, unitPrice);
                 waterBills.add(waterBill);
             }
-
-        } catch (IOException | NullPointerException e) {
-            return Collections.emptyList();
-        }
-
-        if (waterBills.isEmpty()) {
-            return Collections.emptyList();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (NullPointerException e) {
+            throw new NullPointerException("존재하지 않는 파일경로 : " + location);
         }
 
         return waterBills;

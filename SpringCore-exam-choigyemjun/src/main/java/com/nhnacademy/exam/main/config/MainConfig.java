@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
-@ComponentScan("com.nhnacademy.exam")
+@ComponentScan("com.nhnacademy.exam.main")
 @EnableAspectJAutoProxy
 public class MainConfig {
 }

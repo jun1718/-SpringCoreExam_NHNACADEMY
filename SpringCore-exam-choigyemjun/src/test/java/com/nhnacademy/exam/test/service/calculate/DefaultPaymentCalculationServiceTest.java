@@ -23,7 +23,7 @@ public class DefaultPaymentCalculationServiceTest {
     void setUp() {
         defaultWaterBillRepository = new DefaultWaterBillRepository(new CsvDataParser(), new JsonDataParser());
         defaultWaterBillRepository.load("data/Tariff_20220331.csv");
-        defaultPaymentCalculationService= new DefaultPaymentCalculationService(defaultWaterBillRepository);
+        defaultPaymentCalculationService = new DefaultPaymentCalculationService(defaultWaterBillRepository);
     }
 
     @DisplayName("전체 요금표에서 물량에 해당하는 구간의 값들중 가장 싼값 5에 대해서 최종요금을 계산한다.")

@@ -25,7 +25,7 @@ public class BootStrap {
             ResultReport resultReport =
                 context.getBean("defaultResultReport", ResultReport.class);
 
-            waterBillRepository.load("data/Tariff_20220331.json1");
+            waterBillRepository.load("data/Tariff_20220331.json");
             paymentCalculationService.calculate(1000);
             resultReport.report(paymentCalculationService.getLowWaterBills());
         }

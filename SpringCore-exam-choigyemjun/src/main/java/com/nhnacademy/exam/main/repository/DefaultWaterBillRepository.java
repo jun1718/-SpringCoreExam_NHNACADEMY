@@ -3,8 +3,8 @@ package com.nhnacademy.exam.main.repository;
 import com.nhnacademy.exam.main.info.WaterBill;
 import com.nhnacademy.exam.main.service.material.WaterBillFinderAboutSection;
 import com.nhnacademy.exam.main.service.parser.DataParser;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import org.apache.commons.logging.Log;
@@ -18,7 +18,7 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
     private List<WaterBill> waterBills = new ArrayList<>();
     private final DataParser csvParser;
     private final DataParser jsonParser;
-    Log log = LogFactory.getLog(DefaultWaterBillRepository.class);
+    private Log log = LogFactory.getLog(DefaultWaterBillRepository.class);
 
     public DefaultWaterBillRepository(@Qualifier("csvDataParser") DataParser csvParser,
                                       @Qualifier("jsonDataParser") DataParser jsonParser) {
@@ -30,25 +30,21 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
     public void load(String location) {
         if (!location.contains(".")) {
             this.successLoad = false;
-            log.debug("파일 형식이 없습니다.");
-            return;
+            throw new IllegalStateException("파일 형식이 없습니다.");
         }
 
-        if (parserSelector(location)) {
-            return;
-        }
-
-        if (waterBills.equals(Collections.emptyList())) {
+        try {
+            parserSelector(location);
+        } catch (IOException e) {
+            e.printStackTrace();
             this.successLoad = false;
-
-            log.debug("존재하지 않는 파일경로입니다.");
             return;
         }
         
         this.successLoad = true;
     }
 
-    private boolean parserSelector(String location) {
+    private void parserSelector(String location) throws IOException {
         String[] str = location.split("[.]", -1);
 
         if (str[1].equals("csv")) {
@@ -56,12 +52,9 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
         } else if (str[1].equals("json")) {
             waterBills = jsonParser.parse(location);
         } else {
-            log.debug("지원하지 않는 형식입니다 : " + str[1]);
             this.successLoad = false;
-            return true;
+            throw new IllegalStateException("지원하지 않는 형식입니다 : " + str[1]);
         }
-
-        return false;
     }
 
     @Override

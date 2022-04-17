@@ -28,12 +28,10 @@ public class JsonDataParser implements DataParser {
 
             waterBills = list;
             // FIXME: 예외별로 처리
-        } catch (IllegalArgumentException | IOException | NullPointerException e) {
-            return Collections.emptyList();
-        }
-
-        if (waterBills.isEmpty()) {
-            return Collections.emptyList();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException("존재하지 않는 파일경로 : " + location);
         }
 
         return waterBills;
