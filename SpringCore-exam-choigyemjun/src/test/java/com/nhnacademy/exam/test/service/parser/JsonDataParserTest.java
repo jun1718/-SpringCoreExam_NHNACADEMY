@@ -29,11 +29,12 @@ public class JsonDataParserTest {
     @DisplayName("파일위치를 classLoader로 잘 잡아서 역직렬화를 성공적으로 했는지  테스트한다. 갯수 303, 첫번재 및 마지막 객체로 비교")
     @Test
     void parseTest_success() {
-        List<WaterBill> waterBills = jsonDataParser.parse("data/Tariff_20220331.csv");
+        List<WaterBill> waterBills = jsonDataParser.parse("data/Tariff_20220331.json");
         assertThat(waterBills)
             .hasSize(303);
 
         WaterBill first = new WaterBill("동두천시", "가정용", 1, 20, 690);
+
         assertThat(waterBills.get(0))
             .isEqualTo(first);
 

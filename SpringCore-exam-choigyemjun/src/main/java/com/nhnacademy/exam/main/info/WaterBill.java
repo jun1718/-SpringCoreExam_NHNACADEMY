@@ -1,24 +1,22 @@
 package com.nhnacademy.exam.main.info;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Objects;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WaterBill implements Comparable<WaterBill>{
-    @JsonAlias({"지자체명"})
     private final String city;
-    @JsonAlias({"업종"})
     private final String sector;
-    @JsonAlias({"구간시작(세제곱미터)"})
     private final long sectionStart;
-    @JsonAlias({"구간끝(세제곱미터)"})
     private final long sectionEnd;
-    @JsonAlias({"구간금액(원)"})
     private final long unitPrice;
     private long billTotal = 0L;
 
-    public WaterBill(String city, String sector, long sectionStart, long sectionEnd, long unitPrice) {
+    @JsonCreator
+    public WaterBill(@JsonProperty("지자체명") String city, @JsonProperty("업종") String sector, @JsonProperty("구간시작(세제곱미터)") long sectionStart, @JsonProperty("구간끝(세제곱미터)") long sectionEnd, @JsonProperty("구간금액(원)") long unitPrice) {
         this.city = city;
         this.sector = sector;
         this.sectionStart = sectionStart;
@@ -26,33 +24,28 @@ public class WaterBill implements Comparable<WaterBill>{
         this.unitPrice = unitPrice;
     }
 
-    public String getCity() {
-        return city;
-    }
-
-    public String getSector() {
-        return sector;
-    }
-
-    public long getUnitPrice() {
-        return unitPrice;
-    }
-
-    public long getBillTotal() {
-        return billTotal;
-    }
-
     public void setBillTotal(long billTotal) {
         this.billTotal = billTotal;
     }
-
+    public String getCity() {
+        return city;
+    }
+    public String getSector() {
+        return sector;
+    }
+    public long getUnitPrice() {
+        return unitPrice;
+    }
+    public long getBillTotal() {
+        return billTotal;
+    }
     public long getSectionStart() {
         return sectionStart;
     }
-
     public long getSectionEnd() {
         return sectionEnd;
     }
+
 
     @Override
     public String toString() {

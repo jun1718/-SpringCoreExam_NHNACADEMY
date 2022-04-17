@@ -42,6 +42,10 @@
         <appender-ref ref = "ElapseFile"/>
     </logger>
 
+    <logger name = "com.nhnacademy.exam.main.repository.DefaultWaterBillRepository" level = "Debug" additivity="false">
+        <appender-ref ref = "STDOUT"/>
+    </logger>
+
     <root level = "WARN">
         <appender-ref ref = "STDOUT"/>
     </root>

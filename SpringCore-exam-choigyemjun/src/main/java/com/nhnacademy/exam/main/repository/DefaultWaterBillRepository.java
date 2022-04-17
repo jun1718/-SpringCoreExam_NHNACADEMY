@@ -6,6 +6,8 @@ import com.nhnacademy.exam.main.service.parser.DataParser;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -14,15 +16,25 @@ public class DefaultWaterBillRepository implements WaterBillRepository {
     private List<WaterBill> waterBills = new ArrayList<>();
     private final DataParser parser;
 
-    public DefaultWaterBillRepository(DataParser parser) {
-        this.parser = parser;
+    public DefaultWaterBillRepository(@Qualifier("jsonDataParser") DataParser csvParser) {
+        this.parser = csvParser;
     }
 
     @Override
     public void load(String location) {
+
+//        String[] str = location.split(".");
+//        System.out.println(str[1]);
+//        if (str[1].equals("csv")) {
+//
+//        } else if (str[1].equals("json")) {
+//
+//        }
         waterBills = parser.parse(location);
+
         if (waterBills.equals(Collections.emptyList())) {
             this.successLoad = false;
+            LogFactory.getLog(DefaultWaterBillRepository.class).debug("존재하지 않는 파일경로입니다.");
             return;
         }
         

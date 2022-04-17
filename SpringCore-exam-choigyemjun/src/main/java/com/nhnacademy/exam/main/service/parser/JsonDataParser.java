@@ -1,25 +1,34 @@
 package com.nhnacademy.exam.main.service.parser;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nhnacademy.exam.main.info.WaterBill;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import org.springframework.stereotype.Service;
 
+@Service
 public class JsonDataParser implements DataParser {
     @Override
     public List<WaterBill> parse(String location) {
-        List<WaterBill> waterBills;
+        List<WaterBill> waterBills = new ArrayList<>();
 
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(location)) {
             ObjectMapper mapper = new ObjectMapper();
-            waterBills = mapper.readValue(inputStream, List.class);
 
-        } catch (IOException | NullPointerException e) {
+            List<WaterBill> list = mapper.readValue(inputStream,
+                new TypeReference<List<WaterBill>>() {});
+
+            waterBills = list;
+            // FIXME: 예외별로 처리
+        } catch (IllegalArgumentException | IOException | NullPointerException e) {
             return Collections.emptyList();
         }
 
