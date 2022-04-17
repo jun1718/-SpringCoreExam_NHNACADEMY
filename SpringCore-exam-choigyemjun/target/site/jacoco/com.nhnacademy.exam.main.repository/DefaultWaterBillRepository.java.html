@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DefaultWaterBillRepository.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SpringCore-exam-choigyemjun</a> &gt; <a href="index.source.html" class="el_package">com.nhnacademy.exam.main.repository</a> &gt; <span class="el_source">DefaultWaterBillRepository.java</span></div><h1>DefaultWaterBillRepository.java</h1><pre class="source lang-java linenums">package com.nhnacademy.exam.main.repository;
+
+import com.nhnacademy.exam.main.info.WaterBill;
+import com.nhnacademy.exam.main.service.material.WaterBillFinderAboutSection;
+import com.nhnacademy.exam.main.service.parser.DataParser;
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class DefaultWaterBillRepository implements WaterBillRepository {
+<span class="fc" id="L13">    private boolean successLoad = false;</span>
+<span class="fc" id="L14">    private List&lt;WaterBill&gt; waterBills = new ArrayList&lt;&gt;();</span>
+    private final DataParser csvParser;
+    private final DataParser jsonParser;
+
+    public DefaultWaterBillRepository(@Qualifier(&quot;csvDataParser&quot;) DataParser csvParser,
+<span class="fc" id="L19">                                      @Qualifier(&quot;jsonDataParser&quot;) DataParser jsonParser) {</span>
+<span class="fc" id="L20">        this.csvParser = csvParser;</span>
+<span class="fc" id="L21">        this.jsonParser = jsonParser;</span>
+<span class="fc" id="L22">    }</span>
+
+    @Override
+    public void load(String location) {
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        if (!location.contains(&quot;.&quot;)) {</span>
+<span class="fc" id="L27">            this.successLoad = false;</span>
+<span class="fc" id="L28">            throw new IllegalStateException(&quot;파일 형식이 없습니다.&quot;);</span>
+        }
+
+<span class="fc" id="L31">        parserSelector(location);</span>
+
+<span class="fc" id="L33">        this.successLoad = true;</span>
+<span class="fc" id="L34">    }</span>
+
+    private void parserSelector(String location) {
+<span class="fc" id="L37">        String[] str = location.split(&quot;[.]&quot;, -1);</span>
+
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (str[1].equals(&quot;csv&quot;)) {</span>
+<span class="fc" id="L40">            waterBills = csvParser.parse(location);</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">        } else if (str[1].equals(&quot;json&quot;)) {</span>
+<span class="fc" id="L42">            waterBills = jsonParser.parse(location);</span>
+        } else {
+<span class="fc" id="L44">            this.successLoad = false;</span>
+<span class="fc" id="L45">            throw new IllegalStateException(&quot;지원하지 않는 형식입니다 : &quot; + str[1]);</span>
+        }
+<span class="fc" id="L47">    }</span>
+
+    @Override
+    public List&lt;WaterBill&gt; findWaterBills(long amount) {
+<span class="fc" id="L51">        WaterBillFinderAboutSection finder = new WaterBillFinderAboutSection(this.waterBills);</span>
+<span class="fc" id="L52">        finder.findWaterBills(amount);</span>
+<span class="fc" id="L53">        return finder.getResultWaterBills();</span>
+    }
+
+    public boolean isSuccessLoad() {
+<span class="fc" id="L57">        return successLoad;</span>
+    }
+
+    public List&lt;WaterBill&gt; getWaterBills() {
+<span class="fc" id="L61">        return waterBills;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

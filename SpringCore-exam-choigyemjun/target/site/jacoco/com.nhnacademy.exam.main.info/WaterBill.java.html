@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>WaterBill.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SpringCore-exam-choigyemjun</a> &gt; <a href="index.source.html" class="el_package">com.nhnacademy.exam.main.info</a> &gt; <span class="el_source">WaterBill.java</span></div><h1>WaterBill.java</h1><pre class="source lang-java linenums">package com.nhnacademy.exam.main.info;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.Objects;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class WaterBill implements Comparable&lt;WaterBill&gt;{
+    private final String city;
+    private final String sector;
+    private final long sectionStart;
+    private final long sectionEnd;
+    private final long unitPrice;
+<span class="fc" id="L15">    private long billTotal = 0L;</span>
+
+    @JsonCreator
+<span class="fc" id="L18">    public WaterBill(@JsonProperty(&quot;지자체명&quot;) String city, @JsonProperty(&quot;업종&quot;) String sector, @JsonProperty(&quot;구간시작(세제곱미터)&quot;) long sectionStart, @JsonProperty(&quot;구간끝(세제곱미터)&quot;) long sectionEnd, @JsonProperty(&quot;구간금액(원)&quot;) long unitPrice) {</span>
+<span class="fc" id="L19">        this.city = city;</span>
+<span class="fc" id="L20">        this.sector = sector;</span>
+<span class="fc" id="L21">        this.sectionStart = sectionStart;</span>
+<span class="fc" id="L22">        this.sectionEnd = sectionEnd;</span>
+<span class="fc" id="L23">        this.unitPrice = unitPrice;</span>
+<span class="fc" id="L24">    }</span>
+
+    public void setBillTotal(long billTotal) {
+<span class="fc" id="L27">        this.billTotal = billTotal;</span>
+<span class="fc" id="L28">    }</span>
+    public String getCity() {
+<span class="fc" id="L30">        return city;</span>
+    }
+    public String getSector() {
+<span class="fc" id="L33">        return sector;</span>
+    }
+    public long getUnitPrice() {
+<span class="fc" id="L36">        return unitPrice;</span>
+    }
+    public long getBillTotal() {
+<span class="fc" id="L39">        return billTotal;</span>
+    }
+    public long getSectionStart() {
+<span class="fc" id="L42">        return sectionStart;</span>
+    }
+    public long getSectionEnd() {
+<span class="fc" id="L45">        return sectionEnd;</span>
+    }
+
+
+    @Override
+    public String toString() {
+<span class="fc" id="L51">        return &quot;WaterBill{&quot; +</span>
+            &quot;city='&quot; + city + '\'' +
+            &quot;, sector='&quot; + sector + '\'' +
+            &quot;, unitPrice=&quot; + unitPrice +
+            &quot;, billTotal=&quot; + billTotal +
+            '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+<span class="pc bpc" id="L61" title="1 of 2 branches missed.">        if (this == o) {</span>
+<span class="nc" id="L62">            return true;</span>
+        }
+<span class="pc bpc" id="L64" title="2 of 4 branches missed.">        if (o == null || getClass() != o.getClass()) {</span>
+<span class="nc" id="L65">            return false;</span>
+        }
+<span class="fc" id="L67">        WaterBill waterBill = (WaterBill) o;</span>
+<span class="pc bpc" id="L68" title="4 of 8 branches missed.">        return sectionStart == waterBill.sectionStart &amp;&amp; sectionEnd == waterBill.sectionEnd &amp;&amp;</span>
+            unitPrice == waterBill.unitPrice &amp;&amp; billTotal == waterBill.billTotal &amp;&amp;
+<span class="fc bfc" id="L70" title="All 2 branches covered.">            Objects.equals(city, waterBill.city) &amp;&amp;</span>
+<span class="pc bpc" id="L71" title="1 of 2 branches missed.">            Objects.equals(sector, waterBill.sector);</span>
+    }
+
+    @Override
+    public int hashCode() {
+<span class="nc" id="L76">        return Objects.hash(city, sector, sectionStart, sectionEnd, unitPrice, billTotal);</span>
+    }
+
+    @Override
+    public int compareTo(WaterBill o) {
+<span class="fc bfc" id="L81" title="All 2 branches covered.">        if (this.getUnitPrice() &gt; o.getUnitPrice()) {</span>
+<span class="fc" id="L82">            return 1;</span>
+        }
+
+<span class="fc bfc" id="L85" title="All 2 branches covered.">        if (this.getUnitPrice() &lt; o.getUnitPrice()) {</span>
+<span class="fc" id="L86">            return -1;</span>
+        }
+
+<span class="fc" id="L89">        return 0;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

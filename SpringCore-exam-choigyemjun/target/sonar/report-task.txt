@@ -2,5 +2,5 @@ projectKey=com.nhnacademy.exam:SpringCore-exam-choigyemjun
 serverUrl=http://133.186.211.156:9000
 serverVersion=8.9.1.44547
 dashboardUrl=http://133.186.211.156:9000/dashboard?id=com.nhnacademy.exam%3ASpringCore-exam-choigyemjun
-ceTaskId=AYA3vAa3mo2e7XlumjrD
-ceTaskUrl=http://133.186.211.156:9000/api/ce/task?id=AYA3vAa3mo2e7XlumjrD
+ceTaskId=AYA3z4VYmo2e7XlumjrQ
+ceTaskUrl=http://133.186.211.156:9000/api/ce/task?id=AYA3z4VYmo2e7XlumjrQ

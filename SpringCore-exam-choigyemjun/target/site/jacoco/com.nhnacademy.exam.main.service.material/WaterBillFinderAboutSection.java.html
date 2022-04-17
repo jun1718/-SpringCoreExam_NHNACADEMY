@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>WaterBillFinderAboutSection.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SpringCore-exam-choigyemjun</a> &gt; <a href="index.source.html" class="el_package">com.nhnacademy.exam.main.service.material</a> &gt; <span class="el_source">WaterBillFinderAboutSection.java</span></div><h1>WaterBillFinderAboutSection.java</h1><pre class="source lang-java linenums">package com.nhnacademy.exam.main.service.material;
+
+import com.nhnacademy.exam.main.info.WaterBill;
+import java.util.ArrayList;
+import java.util.List;
+
+public class WaterBillFinderAboutSection {
+<span class="fc" id="L8">    private final List&lt;WaterBill&gt; resultWaterBills = new ArrayList&lt;&gt;();</span>
+    private final List&lt;WaterBill&gt; allWaterBills;
+
+<span class="fc" id="L11">    public WaterBillFinderAboutSection(List&lt;WaterBill&gt; allWaterBills) {</span>
+<span class="fc" id="L12">        this.allWaterBills = allWaterBills;</span>
+<span class="fc" id="L13">    }</span>
+
+    public void findWaterBills(long amount) {
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        for (WaterBill waterBill : this.allWaterBills) {</span>
+<span class="fc" id="L17">            long start = waterBill.getSectionStart();</span>
+<span class="fc" id="L18">            long end = waterBill.getSectionEnd();</span>
+
+<span class="fc bfc" id="L20" title="All 4 branches covered.">            if (amount &gt;= start &amp;&amp; amount &lt;= end) {</span>
+<span class="fc" id="L21">                resultWaterBills.add(waterBill);</span>
+            }
+<span class="fc" id="L23">        }</span>
+<span class="fc" id="L24">    }</span>
+
+    public List&lt;WaterBill&gt; getResultWaterBills() {
+<span class="fc" id="L27">        return this.resultWaterBills;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
